@@ -1,3 +1,7 @@
+.navbar{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
 .header-container{
   top: 0;
   width: 100%;
@@ -25,15 +29,40 @@
   height: 100%;
   display:flex;
   flex-wrap: wrap;
+margin: 50px;
 }
 .card{
   width: 300px;
   margin: 30px;
+  height: 300px;
 }
 .main-wrapper{
   margin-top: 100px;
-  
 }
+
 .main-wrapper .section-heading{
   margin-left: 100px;
+}
+.navbar-nav1{
+  display: flex;
+  justify-content: space-around;
+  min-width: 400px;
+
+}
+.search-bar{
+  min-width: 300px;
+}
+.navbar-nav2 {
+  display: flex;
+  justify-content: space-around;
+  min-width: 200px;   
+} 
+.navbar-collapse{
+  display: flex;
+  justify-content: space-between;
+}
+.card .img{
+  max-height: 200px;
+
+
 }
